@@ -56,7 +56,7 @@ import boto3
 import json
 
 def lambda_handler(event=None, context=None):
-    a = 5
+    a = 10
     b = 7
     total = a + b
     result_text = f"Sum of {a} and {b} is {total}"
